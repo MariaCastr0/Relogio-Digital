@@ -8,7 +8,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    background: linear-gradient(120deg, #FFE4E1, #f87979);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,16 +18,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 200px;
-    width: 550px;
+    height: 360px;
+    width: 860px;
     background: transparent;
     border-radius: 3px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
 
 .relogio div {
-    height: 170px;
-    width: 150px;
+    height: 300px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,9 +41,10 @@ body {
 
 .relogio span {
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 130px;
 }
 
 .relogio span.tempo {
-    font-size: 10px;
+    font-size: 20px;
+    padding-top: 8px;
 }
